@@ -1,0 +1,9 @@
+---
+- hosts: solrhosts
+  become: true
+  
+  roles:
+   - role: ansible-role-java
+     java_packages:
+        - java-1.8.0-openjdk
+   - role: rolessolr

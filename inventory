@@ -1,0 +1,4 @@
+[solrhosts]
+
+node0 ansible_host=54.210.172.208 ansible_port=22 ansible_user=ec2-user ansible_private_key_file=./Nidhikey.pem
+
